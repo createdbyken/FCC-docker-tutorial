@@ -1,0 +1,16 @@
+{
+    "name": "Node.js Sample",
+    "dockerFile": "Dockerfile",
+  
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/zsh",
+    },
+  
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "EliverLara.andromeda"
+    ],
+  
+    "forwardPorts": [3000],
+
+  }
